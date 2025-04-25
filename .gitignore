@@ -1,3 +1,9 @@
+# Ignore all in Packages except manifest and lock
+Packages/*
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
